@@ -14,6 +14,16 @@ Predicts which telecom customers are likely to churn, ranks them by risk, and ex
 6. Explain predictions with **SHAP** (global and per-customer drivers). **Gemini** only turns those SHAP results into plain-language text; it does not change the prediction.
 7. Package the model and run a what-if dashboard in a Shiny app.
 
+## Demo
+
+Local demo of the Shiny for Python dashboard (run it with `shiny run app.py`): enter a customer ID to see the churn probability and the top drivers, then use the what-if sliders to see how the probability changes.
+
+![Dashboard demo](assets/dashboard-demo.gif)
+
+![Churn probability and top drivers](assets/Screenshot%201.png)
+
+![What-if analysis](assets/Screenshot%202.png)
+
 ## Results
 | Metric | Value |
 | --- | --- |
@@ -32,6 +42,7 @@ Predicts which telecom customers are likely to churn, ranks them by risk, and ex
 | `churn_model_bundle.pkl` | Trained model and metadata used by the scorer and the app |
 | `demo_customer_data.csv` | Sample customers for the demo |
 | `requirements.txt` | Python dependencies |
+| `assets/` | Demo GIF and screenshots shown in this README |
 
 ## Run the dashboard locally
 ```bash
