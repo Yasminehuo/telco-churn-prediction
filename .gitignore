@@ -1,0 +1,22 @@
+# Secrets: never commit these
+api_key.txt
+openai_key.txt
+*.key
+.env
+.env.*
+
+# Raw data (download from Kaggle / IBM instead)
+WA_Fn-UseC_-Telco-Customer-Churn.csv
+telco_churn.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
