@@ -1,10 +1,13 @@
-pandas
-numpy
-scikit-learn
-statsmodels
-xgboost
-shap
-matplotlib
-shiny
-google-genai
+# Versions used to build churn_model_bundle.pkl (Google Colab, Python 3.13)
+pandas==2.2.3
+numpy==2.4.6
+scikit-learn==1.6.1
+statsmodels==0.15.0
+xgboost==3.4.1
+shap==0.52.0
+matplotlib==3.10.0
+shiny==1.9.0
+google-genai==2.12.1
+
+# Only needed to open the notebook locally; not pinned (Colab provides its own)
 jupyter
